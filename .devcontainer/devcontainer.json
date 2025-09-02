@@ -1,0 +1,21 @@
+{
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "eamodio.gitlens",
+        "esbenp.prettier-vscode",
+        "GitHub.copilot",
+        "GitHub.copilot-chat",
+        "ms-python.black-formatter",
+        "ms-python.debugpy",
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "ms-python.vscode-python-envs"
+      ]
+    }
+  },
+  "dockerComposeFile": "compose.yml",
+  "name": "python",
+  "service": "python",
+  "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}"
+}
